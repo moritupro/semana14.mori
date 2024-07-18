@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-widthinitial-scale=10">
+    <title>Portafolio Personal</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        #volver {
+            width: 200px;
+            display: inline;
+            border-radius: 6px;
+            color: white;
+            text-decoration: none;
+            background-color: green;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>BLOG PERSONAL</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">INICIO</a></li>
+                    <li><a href="#blog">BLOG</a></li>
+                    <li><a href="#acerca">ACERCA DE..</a></li>
+                    <li><a href="#contacto">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="inicio">
+            <div class="container">
+                <h2>BIENVENIDO A MI BLOG PERSONAL</h2>
+                <p>Hola, Me llamo Marco, tengo 18 años en esta etapa de mi vida soy estudiante de "Desarrollo de
+                    sistemas de informacion", ahora mismo me encuentro en tercer ciclo en "IESTP MISIONEROS
+                    MONFORTIANOS" aspiro a crecer mucho más en mi carrera, aprender muchas cosas en la vida y todo los
+                    conocimientos aprendidos ponerlos en practica en cualquier lado que vaya.
+                </p>
+            </div>
+        </section>
+        <section id="blog">
+            <div class="container">
+                <h2>ULTIMAS ENTRADAS</h2>
+                <div class="blog-post">
+                    <h3>MI CURRICULUM VITAE:</h3>
+                    <p class="meta">Publicado el 20 de junio de 2024</p>
+                    <p>En este momento te presentare mi ultima entrada que fue mi cv,
+                        tiene toda mi informacion y habilidades en experiencias de trabajo y habilidad.
+                    </p>
+                    <a href="cv.html" class="button">Leer Más</a>
+                    <hr>
+                </div>
+                <section id="acerca">
+                <div class="blog-post">
+                    <h3>DATOS PERSONALES</h3>
+                    <p class="meta">Publicado el 15 de Febrero de 2024</p>
+                    <p>Podemos observar los datos personales agregados de algunos familiares de un compañero</p>
+                    <a href="datos.html" class="button">Leer Más</a>
+                </div>
+        </section>
+        <section id="contacto">
+            <div class="container">
+                <h2>CONTACTO</h2>
+                <p>Puedes Contactarnos a traves de esto:</p>
+                <form action="enviar.php" method="post">
+                    <input type="text" name="nombre" placeholder="Tu nombre" required>
+                    <input type="emai" name="emai" placeholder="Tu correo Electronico" required>
+                    <textarea name="mensaje" placeholder="Tu mensaje" required></textarea>
+                    <button><a href="https://accounts.google.com/SignOutOptions?hl=es-419&continue=https://mail.google.com/mail/&service=mail&ec=GBRAFw">Enviar Mensaje</a></button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p class="meta">Publicado por: Marco Mori</p>
+            <a href="index.html" id="volver">volver</a>
+        </div>
+    </footer>
+</body>
+</html>

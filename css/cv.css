@@ -1,0 +1,98 @@
+header{
+    color:black;
+    width: 894px;
+    height: 90px;
+    border-bottom: 5px;
+    margin-bottom: 5px;
+    box-shadow: 4px 4px 2px #a09d9d;
+    background-color:rgb(176, 255, 255);
+}
+header h1 {
+    font-size: 25px;
+    font-family: helvetica;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 0;
+}
+header .descrip{
+    margin-top: -6px;
+    font-size: 15px;
+    font-family: helvetica;
+    text-align: center;
+}
+.todo {
+    display: flex;
+    
+}
+.datos {
+    margin-right: 5px;
+    padding: 20px;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    box-shadow: 3px 2px 2px rgb(160, 157, 157);
+    width: 350px;
+}
+.datos .imagen {
+    margin: 0px;
+    text-align: center;
+    padding: 0px;
+
+}
+.datos h1 {
+    margin-left: 9px;
+    margin-bottom: -5px;
+    text-align: justify;
+    font-size: 12px;
+    font-family: helvetica;
+}
+.Perfil p {
+    font-family: helvetica;
+    text-align: justify;
+}
+.Contacto img {
+    padding-left: 20px;
+    text-align: left;
+    width: 13px;
+}
+.Contacto p {
+    font-family: helvetica;
+    font-size: 10px;
+}
+.forma0 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    width: 65px;
+    height: 2px;
+    background-color: black;
+}
+.forma2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    width: 90px;
+    height: 2px;
+    background-color: rgb(8, 8, 8);
+}
+.habilidades {
+    width: 450px;
+    color: rgb(252, 252, 252);
+    box-shadow: 3px 2px 2px rgb(160, 157, 157);
+    background-color: rgb(146, 140, 140);
+    padding: 24px;
+}
+.habilidades h2 {
+    margin-left: 10px;
+    font-family: helvetica;
+}
+.habilidades .forma1{
+    margin-bottom: 10px;
+    margin-left: 1px;
+    width: 340px;
+    height: 1px;
+    background-color: rgb(202, 201, 201);
+}
+.habilidades .info {
+    text-align: justify;
+}
